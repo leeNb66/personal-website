@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1600" role="img" aria-label="Abstract premium glass material hero visual">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f5efe2"/>
+      <stop offset="0.48" stop-color="#9db2a7"/>
+      <stop offset="1" stop-color="#16221f"/>
+    </linearGradient>
+    <radialGradient id="amber" cx="34%" cy="28%" r="58%">
+      <stop offset="0" stop-color="#ffe1a9" stop-opacity="0.96"/>
+      <stop offset="0.45" stop-color="#d49a62" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#d49a62" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="mint" cx="72%" cy="62%" r="52%">
+      <stop offset="0" stop-color="#d6fff0" stop-opacity="0.78"/>
+      <stop offset="0.5" stop-color="#6f9e92" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#6f9e92" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="34"/>
+    </filter>
+    <filter id="softShadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="34" stdDeviation="42" flood-color="#101816" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <rect width="1440" height="1600" fill="url(#bg)"/>
+  <rect width="1440" height="1600" fill="url(#amber)"/>
+  <rect width="1440" height="1600" fill="url(#mint)"/>
+  <g filter="url(#blur)" opacity="0.72">
+    <ellipse cx="1120" cy="190" rx="260" ry="180" fill="#f4f0e6"/>
+    <ellipse cx="210" cy="1140" rx="310" ry="260" fill="#2e5b53"/>
+    <ellipse cx="980" cy="1250" rx="360" ry="230" fill="#b59a76"/>
+  </g>
+  <g filter="url(#softShadow)">
+    <path d="M292 287c228-106 571-70 782 86 210 155 287 431 169 617-119 187-433 285-698 219-265-67-481-298-480-513 0-215 0-303 227-409Z" fill="#f8f3e9" fill-opacity="0.22"/>
+    <path d="M385 414c171-81 427-48 585 75 159 123 217 341 129 488-89 147-323 223-521 170-199-53-361-236-360-405 0-170-3-247 167-328Z" fill="#ffffff" fill-opacity="0.18"/>
+    <path d="M608 240c91 188 213 299 367 334 154 34 267 122 340 264 72 141 41 291-92 450-134 158-305 196-514 113-208-84-321-217-340-400-19-184 5-360 72-529 66-169 122-246 167-232Z" fill="#1f3430" fill-opacity="0.5"/>
+  </g>
+  <g opacity="0.54" fill="none" stroke="#ffffff" stroke-width="2">
+    <path d="M177 501c171 41 319 30 444-32 125-63 274-71 448-25"/>
+    <path d="M266 1220c176-91 336-122 481-91 145 30 292-3 441-99"/>
+    <path d="M748 144c-66 197-48 367 54 510 102 142 128 293 77 452"/>
+  </g>
+</svg>
